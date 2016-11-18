@@ -1,10 +1,8 @@
 "use strict"
 
 const loadenv = require("node-env-file");
-try{
-    loadenv("./.env")
-}catch (e){
-}
+loadenv("./.env")
+
 module.exports = {
     SLACK_TOKEN: process.env.SLACK_TOKEN,
     SLACK_ICONEMOJI: ":aim:",
