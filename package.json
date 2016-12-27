@@ -5,7 +5,7 @@
   "main": "handler.js",
   "scripts": {
     "test": "echo '[PASSED] no test required' && exit 0",
-    "deploy": "serverless deploy -v"
+    "deploy": "serverless deploy -v -s prod"
   },
   "author": "",
   "license": "ISC",
